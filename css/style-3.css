@@ -1,0 +1,54 @@
+.colornavbar{
+
+    background-color: rgb(88, 148, 228);
+border: 2px solid rgb(60, 60, 226);
+
+
+}
+
+.Tarjeta{ 
+
+    border: 4px solid rgb(207, 76, 76);
+    width: 300px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    
+      }
+
+main{
+
+display: flex;
+justify-content: center;
+    grid-template-columns: auto auto auto;
+
+    grid-template-rows: auto auto auto;
+    display: grid;
+}
+
+@media (min-width:768px) {
+
+.contenedorcard{
+
+display: flex;
+justify-content: flex-end;
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto auto auto;
+}
+
+
+
+}
+
+body{
+
+background-image: url(../ecommerce-website/imagenes/desktop-wallpaper-volkswagen-full-volkswagen.jpg);
+
+}
+
+footer{
+
+    background-color: rgb(5, 125, 206);
+}
+
+
